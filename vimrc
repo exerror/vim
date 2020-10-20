@@ -16,5 +16,12 @@ set tabstop=4
 set softtabstop=4   
 set bg=dark 
 Plugin 'Shougo/neocomplete'  
-colorscheme gruvbox                                                                                                 
+colorscheme gruvbox 
+inoremap " ""<left>
+inoremap ' ''<left>
+inoremap ( ()<left>
+inoremap [ []<left>
+inoremap { {}<left>
+inoremap {<CR> {<CR>}<ESC>O
+inoremap {;<CR> {<CR>};<ESC>O
                                      
