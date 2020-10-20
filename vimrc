@@ -6,7 +6,7 @@ Plugin 'gmarik/Vundle.vim'
 Plugin 'vim-signature'    
 Plugin 'fatih/vim-go'    
 Plugin 'morhetz/gruvbox' 
-
+Plugin 'vim-airline/vim-airline'
 
 call vundle#end()            " required     
 filetype plugin indent on    " required  
