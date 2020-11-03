@@ -23,5 +23,5 @@ inoremap ( ()<left>
 inoremap [ []<left>
 inoremap { {}<left>
 inoremap {<CR> {<CR>}<ESC>O
-inoremap {;<CR> {<CR>};<ESC>O
-                                     
+inoremap {;<CR> {<CR>};<ESC>O                
+set termwinsize=20x0
